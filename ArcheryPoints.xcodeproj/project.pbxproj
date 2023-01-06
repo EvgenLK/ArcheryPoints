@@ -66,8 +66,11 @@
 		9BA5352C2965C5FC00C5F2DB = {
 			isa = PBXGroup;
 			children = (
+				9BA5353C2965C5FC00C5F2DB /* ViewController.swift */,
+				9BA5353E2965C5FC00C5F2DB /* Main.storyboard */,
 				9B2270252967024D0044E6DF /* Model */,
 				9BA535372965C5FC00C5F2DB /* ArcheryPoints */,
+				9BFF7DF52967F195002513B5 /* Supporting Files */,
 				9BA535362965C5FC00C5F2DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,16 +86,21 @@
 		9BA535372965C5FC00C5F2DB /* ArcheryPoints */ = {
 			isa = PBXGroup;
 			children = (
-				9BA535382965C5FC00C5F2DB /* AppDelegate.swift */,
-				9BA5353A2965C5FC00C5F2DB /* SceneDelegate.swift */,
-				9BA5353C2965C5FC00C5F2DB /* ViewController.swift */,
-				9BA5353E2965C5FC00C5F2DB /* Main.storyboard */,
-				9BA535442965C5FD00C5F2DB /* Assets.xcassets */,
-				9BA535462965C5FD00C5F2DB /* LaunchScreen.storyboard */,
-				9BA535492965C5FD00C5F2DB /* Info.plist */,
 				9BA535412965C5FC00C5F2DB /* ArcheryPoints.xcdatamodeld */,
+				9BA535492965C5FD00C5F2DB /* Info.plist */,
 			);
 			path = ArcheryPoints;
+			sourceTree = "<group>";
+		};
+		9BFF7DF52967F195002513B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA535382965C5FC00C5F2DB /* AppDelegate.swift */,
+				9BA5353A2965C5FC00C5F2DB /* SceneDelegate.swift */,
+				9BA535442965C5FD00C5F2DB /* Assets.xcassets */,
+				9BA535462965C5FD00C5F2DB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

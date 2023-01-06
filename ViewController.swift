@@ -62,14 +62,14 @@ class ViewController: UIViewController {
         
         
         //  Удаление  ВСЕХ записей
-        do{
-            let results = try CoreDataManager.instatnce.context.fetch(featchRequest)
-            for result in results as! [NSManagedObject]{
-                CoreDataManager.instatnce.context.delete(result)
-            }
-        }catch{
-            print(error)
-        }
+//        do{
+//            let results = try CoreDataManager.instatnce.context.fetch(featchRequest)
+//            for result in results as! [NSManagedObject]{
+//                CoreDataManager.instatnce.context.delete(result)
+//            }
+//        }catch{
+//            print(error)
+//        }
         
         //сохранить
         CoreDataManager.instatnce.saveContext()
