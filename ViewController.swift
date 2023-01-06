@@ -31,8 +31,8 @@ class ViewController: UIViewController {
         //Установка значений атрибутов
 //        managedObject.setValue(1, forKey: "numberSet")
 //        managedObject.setValue(25, forKey: "countSet")
-        managedObject.numberSet = 1
-        managedObject.countSet = 20
+        managedObject.numberSet = 3
+        managedObject.countSet = 26
         
         //Извлекаем значение атрибутов
 //        let numberSet = managedObject.value(forKey: "numberSet")

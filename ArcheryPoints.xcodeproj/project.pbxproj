@@ -17,6 +17,8 @@
 		9BA535432965C5FC00C5F2DB /* ArcheryPoints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA535412965C5FC00C5F2DB /* ArcheryPoints.xcdatamodeld */; };
 		9BA535452965C5FD00C5F2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA535442965C5FD00C5F2DB /* Assets.xcassets */; };
 		9BA535482965C5FD00C5F2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA535462965C5FD00C5F2DB /* LaunchScreen.storyboard */; };
+		9BAC5AC5296813AF0068169C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC5AC4296813AF0068169C /* AddViewController.swift */; };
+		9BFF7DF72967F83A002513B5 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF7DF62967F83A002513B5 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		9BA535442965C5FD00C5F2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA535472965C5FD00C5F2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA535492965C5FD00C5F2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAC5AC4296813AF0068169C /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		9BFF7DF62967F83A002513B5 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 		9B2270242967023F0044E6DF /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				9BAC5AC4296813AF0068169C /* AddViewController.swift */,
+				9BFF7DF62967F83A002513B5 /* MyTableViewController.swift */,
 				9B2270202966FCBD0044E6DF /* ResultPoint+CoreDataClass.swift */,
 				9B2270212966FCBD0044E6DF /* ResultPoint+CoreDataProperties.swift */,
 			);
@@ -176,7 +182,9 @@
 			files = (
 				9BA5353D2965C5FC00C5F2DB /* ViewController.swift in Sources */,
 				9BA535432965C5FC00C5F2DB /* ArcheryPoints.xcdatamodeld in Sources */,
+				9BAC5AC5296813AF0068169C /* AddViewController.swift in Sources */,
 				9BA535392965C5FC00C5F2DB /* AppDelegate.swift in Sources */,
+				9BFF7DF72967F83A002513B5 /* MyTableViewController.swift in Sources */,
 				9BA5353B2965C5FC00C5F2DB /* SceneDelegate.swift in Sources */,
 				9B2270222966FCBD0044E6DF /* ResultPoint+CoreDataClass.swift in Sources */,
 				9B227027296702BC0044E6DF /* CoreDataManager.swift in Sources */,
