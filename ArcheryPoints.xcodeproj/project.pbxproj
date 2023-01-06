@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2270222966FCBD0044E6DF /* ResultPoint+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2270202966FCBD0044E6DF /* ResultPoint+CoreDataClass.swift */; };
+		9B2270232966FCBD0044E6DF /* ResultPoint+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2270212966FCBD0044E6DF /* ResultPoint+CoreDataProperties.swift */; };
+		9B227027296702BC0044E6DF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B227026296702BC0044E6DF /* CoreDataManager.swift */; };
 		9BA535392965C5FC00C5F2DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA535382965C5FC00C5F2DB /* AppDelegate.swift */; };
 		9BA5353B2965C5FC00C5F2DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5353A2965C5FC00C5F2DB /* SceneDelegate.swift */; };
 		9BA5353D2965C5FC00C5F2DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5353C2965C5FC00C5F2DB /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B2270202966FCBD0044E6DF /* ResultPoint+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultPoint+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9B2270212966FCBD0044E6DF /* ResultPoint+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultPoint+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9B227026296702BC0044E6DF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9BA535352965C5FC00C5F2DB /* ArcheryPoints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcheryPoints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA535382965C5FC00C5F2DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BA5353A2965C5FC00C5F2DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +45,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B2270242967023F0044E6DF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9B2270202966FCBD0044E6DF /* ResultPoint+CoreDataClass.swift */,
+				9B2270212966FCBD0044E6DF /* ResultPoint+CoreDataProperties.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9B2270252967024D0044E6DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B227026296702BC0044E6DF /* CoreDataManager.swift */,
+				9B2270242967023F0044E6DF /* Entity */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9BA5352C2965C5FC00C5F2DB = {
 			isa = PBXGroup;
 			children = (
+				9B2270252967024D0044E6DF /* Model */,
 				9BA535372965C5FC00C5F2DB /* ArcheryPoints */,
 				9BA535362965C5FC00C5F2DB /* Products */,
 			);
@@ -145,6 +170,9 @@
 				9BA535432965C5FC00C5F2DB /* ArcheryPoints.xcdatamodeld in Sources */,
 				9BA535392965C5FC00C5F2DB /* AppDelegate.swift in Sources */,
 				9BA5353B2965C5FC00C5F2DB /* SceneDelegate.swift in Sources */,
+				9B2270222966FCBD0044E6DF /* ResultPoint+CoreDataClass.swift in Sources */,
+				9B227027296702BC0044E6DF /* CoreDataManager.swift in Sources */,
+				9B2270232966FCBD0044E6DF /* ResultPoint+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
